@@ -106,12 +106,8 @@ We welcome contributions! Whether it's improving documentation, adding new featu
 
 This project was developed by :
 
-Ujjwal Kumar Rajak (Lead Developer)
-linked in profile:(https://www.linkedin.com/in/ujjwal-kumar-rajak/)
-
-
-Jigmi Bhutia (Co-Developer)
-linked in profile:(https://www.linkedin.com/in/jigmi-dorjee-bhutia-1414aa321/)
+[Ujjwal Kumar Rajak (LinkedIn)](https://www.linkedin.com/in/ujjwal-kumar-rajak/)
+[Jigmi Bhutia (LinkedIn)](https://www.linkedin.com/in/jigmi-dorjee-bhutia-1414aa321/)
 
 Feel free to fork the repository and submit pull requests or issues.
 
