@@ -1,0 +1,68 @@
+Metadata-Version: 2.2
+Name: nepalilang
+Version: 0.1.0
+Summary: A Nepali-language implementation
+Home-page: https://github.com/Beasova-Corporation/Ilbpp.git
+Author: Ujjwal Kumar Rajak
+Author-email: ujjwalrajak2002@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+Nepalilang
+
+Nepalilang is a simple programming language that supports basic arithmetic operations and loops. It provides an easy-to-use syntax inspired by Nepali keywords for programming.
+
+Features
+
+Supports arithmetic operations (+, -, *, /, %).
+
+Supports variable declaration using ank.
+
+Printing is done using dekhau.
+
+Supports loops (for, while,do while) and conditional statements (if-else).
+
+Installation
+
+To install Nepalilang, use:
+
+pip install nepalilang
+
+Example Usage
+
+Below is an example demonstrating basic arithmetic operations in nepalilang:
+
+import nepalilang
+
+    if __name__ == "__main__":
+    code = r"""
+    anka a = 10;
+    anka b = 5;
+    anka c = a + b;
+    Dekhau(c);
+
+    anka d = c - b;
+    Dekhau(d);
+
+    anka e = d * b;
+    Dekhau(e);
+
+    anka f = e / b;
+    Dekhau(f);
+
+    anka g = e % b;
+    Dekhau(g);
+    """
+    
+    nepalilang.run_code(code)
