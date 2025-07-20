@@ -1,45 +1,44 @@
-# 🇳🇵 Nepalilang - नेपालीमा प्रोग्रामिङ
+# Nepalilang - नेपालीमा प्रोग्रामिङ
+Nepalilang is a Python-based programming language that uses Nepali-style syntax. It was developed by Ujjwal Kumar Rajak and Jigmi Bhutia with the goal of making programming more accessible for Nepali-speaking learners by introducing core programming concepts in their native language.
 
-**Nepalilang** is a Python-based programming language that uses **Nepali-style syntax**, developed by **Ujjwal Kumar Rajak** and **Jigmi Bhutia**. It is designed to make programming more accessible for Nepali-speaking learners by introducing core programming concepts in their native language.
-
----
-
-## 🎥 Demo Video
-
-🎬 Watch the demo:
-
-![Nepalilang Demo](./nepalilang.mp4)
----
+🎥 Demo Video
+🎬 A demo video is available in the repository! You can find it named nepalilang.mp4 within this project's files.
 
 
----
+✨ Key Features
+Nepali Syntax: Write code using native Nepali keywords.
 
-## ✨ Key Features
+Arithmetic Operations: Supports +, -, *, /, %.
 
-- ✅ **Nepali Syntax**: Write code using native Nepali keywords
-- ➕ **Arithmetic Operations**: `+`, `-`, `*`, `/`, `%`
-- 📦 **Variables**: Declare using `anka`
-- 🖨️ **Output**: Display results using `dekhau`
-- 🔁 **Loops**:
-  - `laagi` — For loop
-  - `samma` — While loop
-  - `gara ... samma` — Do-while loop
-- 🔀 **Conditionals**:
-  - `yadi` — If
-  - `natra` — Else
+Variables: Declare variables using anka.
 
----
+Output: Display results using dekhau.
 
-## ⚙️ Installation
+Loops:
 
+laagi — For loop
+
+samma — While loop
+
+gara ... samma — Do-while loop
+
+Conditionals:
+
+yadi — If
+
+natra — Else
+
+⚙️ Installation
 Install Nepalilang using pip:
 
-```bash
+Bash
+
 pip install nepalilang
 📝 Basic Usage
-python
-Copy
-Edit
+Here's a basic example of how to use Nepalilang:
+
+Python
+
 import nepalilang
 
 if __name__ == "__main__":
@@ -51,66 +50,67 @@ if __name__ == "__main__":
 
     anka i = 0;
     laagi (anka i = 0; i < 3; i = i + 1) {
-        dekhau(i);
+        dekhau(i); # Outputs: 0, 1, 2
     }
 
     anka j = 0;
     gara {
         dekhau(j);
         j = j + 1;
-    } samma (j <= 3);
+    } samma (j <= 3); # Outputs: 0, 1, 2, 3
 
     anka k = 3;
     samma (k > 0) {
         dekhau(k);
         k = k - 1;
-    }
+    } # Outputs: 3, 2, 1
 
     anka a = 10;
     yadi (a > 5) {
-        dekhau(a);
+        dekhau(a); # Outputs: 10
     } natra {
         dekhau(0);
     }
     '''
     nepalilang.run_code(code)
 🔄 Loop Examples
-🔁 For Loop
-text
-Copy
-Edit
+For Loop
+Plaintext
+
 laagi (anka i = 0; i < 3; i = i + 1) {
     dekhau(i);
 }
-🔁 Do-While Loop
-text
-Copy
-Edit
+Do-While Loop
+Plaintext
+
 anka j = 0;
 gara {
     dekhau(j);
     j = j + 1;
 } samma (j <= 3);
-
 🙋‍♂️ Why Nepalilang?
-🌐 Breaks the language barrier for native Nepali speakers
+Breaks the Language Barrier: Makes programming more accessible for native Nepali speakers.
 
-🚀 Helps beginners transition into English-based programming
+Smooth Transition: Helps beginners transition into English-based programming concepts.
 
-🏫 Ideal for educational use in schools and coding workshops
+Educational Tool: Ideal for use in schools and coding workshops.
 
-🧱 Covers all fundamental programming concepts
+Foundational: Covers all fundamental programming concepts.
 
 🤝 Contributing
-We welcome contributions! Whether it's improving documentation, adding new features, or reporting bugs—your input helps make Nepalilang better.
+We welcome contributions! Whether you're improving documentation, adding new features, or reporting bugs—your input helps make Nepalilang better.
 
-This project was developed by :
+This project was developed by:
 
-[Ujjwal Kumar Rajak (LinkedIn)](https://www.linkedin.com/in/ujjwal-kumar-rajak/)
-[Jigmi Bhutia (LinkedIn)](https://www.linkedin.com/in/jigmi-dorjee-bhutia-1414aa321/)
+Ujjwal Kumar Rajak (Lead Developer)
+
+LinkedIn Profile: https://www.linkedin.com/in/ujjwal-kumar-rajak/
+
+Jigmi Bhutia (Co-Developer)
+
+LinkedIn Profile: https://www.linkedin.com/in/jigmi-dorjee-bhutia-1414aa321/
 
 Feel free to fork the repository and submit pull requests or issues.
 
 📜 License
-MIT License – Free for educational and personal use.
-See the LICENSE file for more details.
+Nepalilang is released under the MIT License, making it free for educational and personal use. See the LICENSE file for more details.
